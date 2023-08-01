@@ -4,7 +4,6 @@ A simple URL shortener application built in Python using SQLite for data storage
 ## Getting Started
 1. Clone the repository:
 ```bash
-Copy code
 git clone https://github.com/RahulPatil-Tech/CodeClauseInternship_URL_Shorteners.git
 ```
 2. Change into the project directory:
