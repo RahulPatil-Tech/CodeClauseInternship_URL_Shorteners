@@ -23,6 +23,7 @@ pip install sqlite3
 Copy code
 url_shortener.py
 ```
+
 2. You will see the URL Shortener menu:
 <b>
 URL Shortener</br>
@@ -32,7 +33,7 @@ URL Shortener</br>
 Enter your choice: </B></br>
 
 3. To shorten a URL, choose option 1 and enter the original URL:
-<b>
+<b></br>
 Enter the URL to shorten: https://www.example.com/some/long/url</br>
 Shortened URL: abcd1234</b></br>
 
