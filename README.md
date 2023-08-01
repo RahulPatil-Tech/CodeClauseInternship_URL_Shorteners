@@ -9,18 +9,15 @@ git clone https://github.com/RahulPatil-Tech/CodeClauseInternship_URL_Shorteners
 ```
 2. Change into the project directory:
 ```bash
-Copy code
 cd url-shortener
 ```
 3. Install the required dependencies. Make sure you have Python and pip installed.
 ```bash
-Copy code
 pip install sqlite3
 ```
 ## Usage
 1. Run the application:
 ```bash
-Copy code
 url_shortener.py
 ```
 
