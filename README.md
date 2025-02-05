@@ -1,49 +1,96 @@
-## URL Shortener
-A simple URL shortener application built in Python using SQLite for data storage and hashlib for URL shortening.
+<!-- Project Title -->
+# 🔗 URL Shortener
 
-## Getting Started
-1. Clone the repository:
+A simple yet efficient **URL Shortener** built with **Python**, using **SQLite** for data storage and **hashlib** for generating short URLs. 🚀  
+
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)  
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
+[![GitHub stars](https://img.shields.io/github/stars/RahulPatil-Tech/CodeClauseInternship_URL_Shorteners?style=social)](https://github.com/RahulPatil-Tech/CodeClauseInternship_URL_Shorteners)  
+
+---
+
+## ⚡ Features  
+✅ **Shorten Long URLs** 📏  
+✅ **Retrieve Original URLs** 🔄  
+✅ **SQLite Database Storage** 🗄️  
+✅ **Fast & Lightweight** ⚡  
+✅ **Easy-to-Use CLI Interface** 🖥️  
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/RahulPatil-Tech/CodeClauseInternship_URL_Shorteners.git
+cd CodeClauseInternship_URL_Shorteners
 ```
-2. Change into the project directory:
-```bash
-cd url-shortener
-```
-3. Install the required dependencies. Make sure you have Python and pip installed.
+### 2️⃣ Install Dependencies
+Ensure Python is installed, then run:
+
 ```bash
 pip install sqlite3
 ```
-## Usage
-1. Run the application:
+### 3️⃣ Run the Application
 ```bash
-url_shortener.py
+python url_shortener.py
 ```
+---
 
-2. You will see the URL Shortener menu:
-<b>
-URL Shortener</br>
-1. Shorten URL</br>
-2. Retrieve URL</br>
-3. Exit</br>
-Enter your choice: </B></br>
+## 📌 Usage
+### 🎯 URL Shortener Menu:
+```
+URL Shortener
+1. Shorten URL
+2. Retrieve URL
+3. Exit
 
-3. To shorten a URL, choose option 1 and enter the original URL:
-<b></br>
-Enter the URL to shorten: https://www.example.com/some/long/url</br>
-Shortened URL: abcd1234</b></br>
+Enter your choice:
+```
+### 🔹 Shorten a URL:
+```bash
+Enter the URL to shorten: https://www.example.com/some/long/url
+Shortened URL: abcd1234
+```
+### 🔹 Retrieve the Original URL:
+```bash
 
-4. To retrieve the original URL, choose option 2 and enter the short URL:
-<b>
-Enter the short URL: abcd1234</br>
-Original URL: https://www.example.com/some/long/url</b></br>
+Enter the short URL: abcd1234
+Original URL: https://www.example.com/some/long/url
+```
+---
 
-## How It Works
-The URL shortener application uses a simple SQLite database to store the original URL and its corresponding short URL. When you enter a URL to shorten, it generates an MD5 hash of the original URL, takes the first 8 characters of the hash, and uses it as the short URL.
+# 🔍 How It Works
+- The application generates an MD5 hash of the original URL.
+- The first 8 characters of the hash are used as the shortened URL.
+- URLs are stored in an SQLite database for retrieval.
+-----
 
-## Contributing
-Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
+# 🛠️ Technologies Used
+- Python 🐍
+- SQLite 🗄️ (for database)
+- hashlib 🔐 (for URL shortening)
 
-## License
+------
+
+# 🤝 Contributing
+- Contributions are welcome! 🎉
+- Fork the repo 🍴
+- Create a new branch 🌿
+- Commit your changes ✅
+- Submit a PR 🚀
+---------
+
+# 📜 License
 This project is licensed under the MIT License.
 
+-------
+
+# 📩 Contact
+## 👤 Rahul Patil
+### 📧 Email: rp3252154@gmail.com
+### 🔗 LinkedIn: [Rahul_Patil](https://linkedin.com/in/rahul-patil-4bb533209/)  
+
+------
+
+Made with ❤️ by Rahul Patil 🚀
